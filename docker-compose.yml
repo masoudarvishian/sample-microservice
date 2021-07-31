@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  userservice:
+    image: ${DOCKER_REGISTRY-}userservice
+    build:
+      context: .
+      dockerfile: UserService/Dockerfile
+
+  postservice:
+    image: ${DOCKER_REGISTRY-}postservice
+    build:
+      context: .
+      dockerfile: PostService/Dockerfile
+      
+  apigetway:
+    image: ${DOCKER_REGISTRY-}apigetway
+    build:
+      context: .
+      dockerfile: APIGetway/Dockerfile
+
