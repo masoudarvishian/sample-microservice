@@ -8,7 +8,7 @@ We also have a project called `APIGateway` that works as a gateway to handle req
 
 For the `Event Bus` system, this project is using `RabbitMQ`.
 
-Although we're using `Generic Repository` and `UnitOfWork` patterns, the architecture of the projects is intended to be very simple for simplicity, and it's better to have [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture) for each project.
+Although we're using `Generic Repository` and `UnitOfWork` patterns, the architecture of the projects is intended to be very simple, and it's better to have [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#clean-architecture) for each project.
 
 ***
 
