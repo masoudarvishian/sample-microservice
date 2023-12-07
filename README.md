@@ -1,4 +1,4 @@
-# Communere Microservices
+# Sample Microservices
 
 Here we have a simple blog project that has microservice architecture
 
